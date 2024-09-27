@@ -1,0 +1,38 @@
+/* Jai Shree Ram */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: unbounded;
+    src: url(../fonts/Unbounded-ExtraBold.ttf);
+}
+
+.nonFilled {
+    color: transparent;
+    -webkit-text-stroke: 1px #fff; /* Adjust color and width as needed */
+}
+
+.h1P1 {
+    animation: move 15s linear infinite;
+}
+
+.alter{
+    animation: move 15s linear infinite reverse;
+}
+
+
+@keyframes move {
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
