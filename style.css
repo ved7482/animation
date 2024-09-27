@@ -1,7 +1,6 @@
 /* Jai Shree Ram */
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -13,7 +12,7 @@ html, body {
 
 @font-face {
     font-family: unbounded;
-    src: url(../fonts/Unbounded-ExtraBold.ttf);
+    src: url(./Unbounded-ExtraBold.ttf);
 }
 
 .nonFilled {
